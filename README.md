@@ -6,7 +6,4 @@ Simple landing page
 
 ## Language & tools
 
-### HTML
-
-### css
-
+### HTML & CSS
