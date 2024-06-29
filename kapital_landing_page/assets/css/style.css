@@ -1,0 +1,1457 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbarTop part */
+
+@font-face {
+    font-family: sansProLight;
+    src: url('../fonts/SourceSansPro-Light.otf');
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+
+/* ekrani 80% bolub kenarlardan auto verir */
+.container {
+    width: 80%;   
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1216px;
+    
+  
+}
+
+
+.navbarTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+   
+    
+    
+}
+
+
+
+.navbarTop__links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+
+
+.navbarTop__link {
+    color: #2e3131;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: sansProLight;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+
+@font-face {
+    font-family: sansProBold;
+    src: url('../fonts/SourceSansPro-Bold.otf');
+}
+
+
+.navbarTop__link_bold {
+    font-family: sansProBold;
+    margin-right: 15px;
+}
+
+
+.navbarTop__square {
+    border: 1px solid #dc3545;
+    border-radius: 7px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    /* top: -25px; */
+    box-sizing: border-box;
+    
+    
+
+}
+
+
+.navbarTop__location {
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+
+
+
+/* section: karyera */
+
+
+.karyera {
+    background: #e8ecf1;
+    width: 100%;
+    position: relative;
+    margin-top: 2px;
+
+          
+}
+
+
+.karyera__gray {
+    position: relative;
+    height: 430px;
+}
+
+
+/* @font-face {
+    font-family: sansProRegular;
+    src: url('../fonts/SourceSansPro-Regular.otf');
+} */
+
+
+
+.navList {
+    list-style: none;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;;
+    font-weight: 390;
+    margin-left: 134px; 
+   
+
+}
+
+
+.navCategories {
+    padding-top: 24px;
+    padding-right: 20px;
+    font-size: 13.5px;
+    padding-top: 20px;
+    margin-bottom: -10px;
+    
+}
+
+
+.button__container {
+    background: #f45369;
+    height: 32px;
+    width: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 79rem;
+    top: -13px;
+   
+
+}
+
+
+.birbank {
+    font-size: larger;
+    color: #e8ecf1;
+    font-weight: 400;
+}
+
+
+
+
+/*  karyera section */
+
+.karyera__aligner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.karyera__image {
+    width: 460px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+
+.karyera__button {
+    background-color: #f45369;
+    width: 280px;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    margin-top: 20px;
+
+
+}
+
+
+
+@font-face {
+    font-family: sansProSemiBold;
+    src: url('../fonts/Source\ Sans\ Pro\ Semibold.ttf');
+}
+
+
+.karyera__text {
+    font-size: 34px;
+    font-family: sansProSemiBold;
+    letter-spacing: .793699px;
+
+}
+
+
+/*  special quotes  */
+.quotes::before {
+    content: open-quote;
+}
+
+
+.quotes::after {
+    content: close-quote;
+}
+
+/* end */
+
+
+.text__bold {
+    font-size: 34px;
+    letter-spacing: .793699px;
+    font-family: sansProBold;
+    
+}
+
+
+
+.arrows {
+    display: flex;
+    padding-top: 280px;
+    position: relative;
+    left: 30px;
+    
+    
+}
+
+
+.section__arrows {
+    background: #fff;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #bdc3c7;
+    margin-right: 20px;
+    
+}
+
+
+
+
+/*  -------------------- */
+
+.sifaris {
+    padding: 32px;
+    display: flex;
+    background: #f9fafb;
+    border-radius: 8px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: relative;
+    top: -80px;
+
+}
+
+.sifaris__item {
+    width: 202px;
+    height: 168px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px hsla(0, 0%, 80%, .45);
+    
+
+}
+
+
+.sifaris__text {
+    font-size: 18px;
+    color: #2e3131;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+
+}
+
+
+
+
+.card__image {
+    width: 42px;
+    margin: 0 auto 24px;
+    /* filter: grayscale(50%); */
+
+}
+
+
+.container__card {
+    width: 78%;
+}
+
+
+
+
+/*  cashback  */
+
+
+
+@font-face {
+    font-family: sansProRegular;
+    src: url("../fonts/SourceSansPro-Regular.otf");
+}
+
+
+.taksit {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background: #f9fafb;
+    border-radius: 8px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: relative;
+    top: -40px;
+    box-sizing: border-box;
+
+}
+
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: sansProRegular;
+    letter-spacing: .793699px;
+}
+
+
+.taksit__info__detail {
+    font-size: 18px;
+    max-width: 580px;
+    font-family: sansProRegular;
+    padding-top: 20px;
+    /* line-height: 23px; */
+
+}
+
+
+.taksit__card__section {
+    background: #e8ecf1;
+    margin-top: 70px;
+    margin-left: auto;
+
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 8px; */
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: relative;
+    top: 9px;
+
+}
+
+
+.taksit__item {
+    padding-left: 25px;
+    margin-bottom: -311px;
+    
+}
+
+
+
+
+
+
+
+.taksit__item__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 64%;
+    position: relative;
+    padding: 34px 0;
+    box-sizing: border-box;
+    left: 105px;
+    padding-right: 124px;
+    
+
+}
+
+
+
+@font-face {
+    font-family: sansProSemiBold;
+    src: url("../fonts/Source\ Sans\ Pro\ Semibold.ttf");
+}
+
+
+
+.taksit__item__text {
+    position: relative;
+    display: flex;
+    /* justify-content: ; */
+    flex-direction: column;
+    font-size: 17px;
+    
+    
+
+    
+}
+
+
+
+.taksit__text {
+    color: #f45369;
+    font-size: 28px;
+    font-family: sansProSemiBold;
+    margin-bottom: 5px;
+
+    
+}
+
+
+
+
+.taksit__button {
+    box-sizing: border-box;
+    position: relative;
+    left: 145px;
+    font-size: 22px;
+    bottom: 20px;
+    margin-bottom: 10px;
+}
+
+
+.taksit__button:hover {
+    cursor: pointer;
+    background-color: #ef3e42;
+}
+
+
+
+.cashback__image {
+    width: 320px;
+    height: 310px;
+    position: relative;
+    left: 60%;
+    bottom: 32px;
+}
+
+
+
+.taksit__arrows {
+    display: flex;
+    /* padding-top: 280px; */
+    position: absolute;
+    right: 200px;
+    top: 160px;
+}
+
+
+.taksit__left__arrow {
+    cursor: pointer;
+    box-sizing: border-box;
+    background: none !important;
+    font-weight: 900;
+}
+
+.taksit__left__arrow:hover {
+    
+    color: #bdc3c7;
+    cursor: pointer;
+    filter: brightness(300%)
+}
+
+
+
+
+/* nagd pul krediti */
+
+.daily-loan__top {
+    /* position: relative; */
+    padding-left: 450px;
+    margin-top: 60px;
+
+}
+
+.loan-info {
+    max-width: none;
+    font-size: 18px;
+    font-family: sansProRegular;
+    position: relative;
+    top: 50px;
+
+
+}
+
+
+
+.nagd-pul-image {
+    max-width: 447px;
+    max-height: 352px;
+    position: relative;
+    bottom: 140px;
+    left: 110px;
+}
+
+
+.nagd-pul-title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: sansProRegular;
+    letter-spacing: .793699px;
+    position: relative;
+    top: 30px;
+}
+
+
+.daily-loan__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 64%;
+    position: relative;
+    padding: 34px 0;
+    box-sizing: border-box;
+    padding-right: 168px;
+    bottom: 320px;
+    margin-left: 579px;
+    box-sizing: border-box;
+
+
+}
+
+
+.nagd-pul__button {
+    margin-left: 932px;
+    position: relative;
+    bottom: 346px;
+}
+
+
+
+
+
+.loan-container {
+    box-sizing: border-box;
+    position: relative;
+    height: 20px;
+    margin-bottom: -116px;
+
+
+}
+
+
+
+/* banner */
+
+.large__banner {
+    margin-top: 70px;
+    margin-left: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: relative;
+    top: 9px;
+   
+    
+}
+    
+
+
+.banner__image {
+    max-width: 208px;
+    max-height: 300px;
+    position: relative;
+    left: 302px;
+    bottom: 144px;
+    margin-bottom: -148px;
+}
+
+
+.banner__image__boy {
+    max-width: 200px;
+    max-height: 224px;
+    margin-left: 266px;
+    margin-top: -72px;
+}
+
+
+
+
+.banner-title {
+    padding-top: 50px;
+    font-size: 36px;
+    font-family: sansProBold;
+    /* margin-top: 0; */
+}
+
+
+
+.banner-text {
+    max-width:255px;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 255px;
+    height: 63px;
+}
+
+
+
+.banner-pay__arrow {
+    text-decoration-line: none;
+    box-sizing: border-box;
+    position: relative;
+    left: 145px;
+    font-size: 18px;
+    bottom: 42px;
+    font-family: sansProLight;
+    color: #f45369;
+    left: -210px;
+    
+
+}
+
+
+
+
+.banner-pay__right-arrow {
+    position: relative;
+    margin-left: -256px;
+    color: #fff;
+}
+
+
+
+.fa-arrow-right {
+    padding-left: 6px;
+}
+
+
+
+.banner {
+    background-color: #e8ecf1;
+    position: relative;
+    /* margin-left: 15px; */
+    width: 738px;
+    padding-left: 148px;
+}
+
+
+.right-banner {
+    position: relative;
+    padding-left: 86px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #ef3e42;
+    color: #fff;
+    left: -26px;
+    
+}
+
+
+.left-banner {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+/* news */
+
+
+.news {
+    height: 289px;
+    background: #e8ecf1;
+    margin-top: 35px;
+    margin-left: auto;
+
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: relative;
+    top: 9px;
+
+}
+
+.news-title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: sansProSemiBold;
+    letter-spacing: .793699px;
+    position: relative;
+    top: 40px;
+    left: -17px;
+}
+
+
+
+.news-section__container {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 90px;
+    right: 167px;
+}
+
+
+
+
+.news-section {
+    max-width: 255px;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 255px;
+    height: 63px;
+    display: flex;
+    justify-content: space-evenly;
+
+    position: relative;
+    left: 157px;
+    box-sizing: border-box;
+}
+
+
+
+
+.news-text-1 {
+
+    max-width: 193px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+
+.news-text-3 {
+
+    max-width: 198px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+
+
+.news-text {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+
+.news-date {
+    position: relative;
+    right: 290px;
+    text-align: center;
+
+}
+
+
+.news-date-number {
+    display: flex;
+    justify-content: center;
+    width: 47px;
+    height: 47px;
+    border: 1px solid #f45369;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 24px;
+    position: relative;
+    left: 10px;
+}
+
+
+
+.news-month {
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    justify-content: end;
+    margin-top: 5px;
+
+}
+
+
+.horizontal-line {
+    position: relative;
+    top: 50px;
+    height: 1px;
+    background: #fff; 
+    left: -17px;
+    /* border: 1px solid #fff; */
+}
+
+
+.LinkArrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.bütün-xəbərlər {
+    
+    box-sizing: border-box;
+    position: relative;
+    left: 145px;
+    font-size: 18px;
+    top: 60px;
+    font-family: sansProLight;
+    color: #f45369;
+    left: -18px;
+    
+}
+
+
+
+.news-arrow {
+    position: relative;
+    left: 246px;
+    top: 37px;
+}
+
+
+
+
+/* currency converter section */
+
+@font-face {
+    font-family: sansProLightExtra;
+    src: url("../fonts/SourceSansPro-ExtraLight.otf");
+}
+
+
+
+.main-currency {
+    font-family: sansProLightExtra;
+    box-sizing: border-box;
+}
+
+
+
+.three-section {
+    margin-top: 50px;
+    line-height: 1.5;
+    font-family: sansProLightExtra;
+    position: relative;
+    right: 100px;
+    
+}
+
+
+.th-text {
+    font-family: sansProLightExtra, serif;
+    font-weight: 300;
+    
+}
+
+
+
+.table-currency {
+    width: 50%;
+    border-collapse: collapse;
+
+}
+
+
+
+.cc-line {
+    position: relative;
+    top: 37px;
+    height: 1px;
+    background: #e8ecf1; 
+    left: 100px;
+    max-width: 1160px;
+}
+
+
+
+.table-data {
+    position: relative;
+    top: 25px;
+    left: 115px;
+}
+
+
+.tr-head {
+    padding-left: 56px;
+    position: relative;
+    left: 57px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: -40%;
+}
+
+
+
+.cc-line2 {
+    position: relative;
+    top: 105px;
+    height: 1px;
+    background: #e8ecf1; 
+    left: 100px;
+    max-width: 1160px;
+}
+
+
+
+.td-data {
+    font-size: 24px;
+    position: relative;
+    top: -38px;
+}
+
+
+.down {
+    position: relative;
+    top: -60px;
+}
+
+
+
+.td-alis {
+    position: relative;
+    left: -138px;
+}
+
+
+
+.td-satis {
+    position: relative;
+    left: -87px;
+}
+
+
+
+.arrow-currency {
+    position: relative;
+    left: 100px;
+    top: -23px;
+}
+
+
+.arrow-etrafli {
+    text-decoration-line: none;
+    box-sizing: border-box;
+    position: relative;
+    font-family: sansProLight;
+    color: #f45369;
+    font-size: 18px;
+}
+
+
+
+
+
+/* currency converter form */
+
+.calculator__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+    
+}
+
+
+.calculator__row_bordered {
+    /* border-top: 1px solid #e8ecf1; */
+    border-top: 1px solid #f5f5f5;
+
+}
+
+
+.calculator__column {
+    width: 33%;
+}
+
+
+.calculator__member {
+    font-family: sansProLightExtra, serif;
+    font-weight: 300;
+    
+}
+
+
+.calculator__money {
+    color: #2e3131;
+    font-size: 24px;
+    font-family: sansProLightExtra, serif;
+    
+}
+
+
+.calculator__money_bold {
+    font-weight: bold;
+}
+
+
+
+.calculator__item_gray {
+    background-color: #e8ecf1;
+    border-radius: 8px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.calculator {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.calculator__item {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.calculator__buttons {
+    background-color: white;
+    width: 310px;
+    height: 48px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.calculator__button {
+    background-color: #f45369;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    height: 40px;
+    width: 149px;
+    transition: 0.5s;
+
+}
+
+
+.calculator__button_white {
+    background-color: #e8ecf1;
+    color: #2e3131;
+}
+
+
+.calculator__button_white:hover {
+    background-color: #f45369;
+    color: #e8ecf1;
+    
+}
+
+
+
+.pl-2 {
+    padding-left: 30px;
+    
+}
+
+
+.calculator__row_center {
+    justify-content: center;
+}
+
+
+
+.relative {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7px;
+}
+
+
+.calculator__input {
+    height: 48px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    font-family: sansProRegular;
+    
+}
+
+
+
+
+.calculator__select {
+    height: 40px;
+    width: 70.71px;
+    border-radius: 8px;
+    border: 1px solid #dc3545;
+    position: absolute;
+    background-color: #fff;
+    margin-left: -75px;
+    margin-top: 3.5px;
+    
+}
+
+
+
+
+.arrow-etrafli-currency {
+
+    text-decoration-line: none;
+    box-sizing: border-box;
+    position: relative;
+    font-family: sansProLight;
+    color: #f45369;
+    font-size: 18px;
+
+
+
+    left: -560px;
+    bottom: -348px;
+    height: 36px;
+    width: 239px;
+    
+
+    
+
+
+
+}
+
+
+
+
+/* footer */
+
+
+.footer {
+    background-color: #2e3131;
+    font-family: sansProRegular;
+    padding: 35px 0 24px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1216px;
+}
+
+
+
+.footer__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.col {
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+
+.footer__title {
+    margin-bottom: 10px;
+    font-family: sansProBold;
+    font-size: 14px;
+}
+
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+.footer__menu li {
+    margin-bottom: 10px;
+}
+
+
+
+.footer__menu li a {
+    color: #fafafa;
+    transition: .3s linear;
+}
+
+
+
+.download-links {
+    text-align: center;
+}
+
+
+
+.download-links h3 {
+    font-size: 14px;
+}
+
+
+
+.mobile-store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+
+
+}
+
+
+
+.footer__item .mobile-store li {
+    margin-bottom: 16px;
+   
+}
+
+
+.footer__item .mobile-store li a {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: #2e3131;
+    min-width: 170px;
+    width: 175px;
+
+}
+
+
+.footer__item .mobile-store li a img {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.footer__item .mobile-store li a p {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    line-height: 18px;
+    text-align: start;
+    font-size: 14px;
+
+}
+
+
+
+
+.footer__socials {
+    margin-top: 38px;
+    
+}
+
+
+
+.social__list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.pr-30 {
+    padding-right: 28px;
+    border-radius: 8px;
+    background: #2e3131;
+    
+    
+
+}
+
+
+.border-color {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    border-color: #f45369;
+    
+    
+}
+
+
+
+
+
+.footer__number {
+
+    /* padding: 4px 7px; */
+    /* padding: 4px 7px; */ 
+    padding-right: 9px;
+    padding-left: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+.border-color-light-red {
+    color: #f45369;
+}
+
+
+
+.align-items {
+     align-items: center;
+}
+
+
+.fa {
+    font-weight: 900;
+}
+
+
+.fab {
+    font-size: 17px;
+}
+
+.pr-30 a i:hover {
+    
+    background-color: #69050f;
+    color: #fff;
+}
+
+.fa-solid {
+    font-weight: 900;
+    padding-right: 5px;
+    padding-left: -7px;
+    position: relative;
+    left: -2px;
+}
+
+
+
+.font-18 {
+    font-size: 18px;
+}
+
+
+.text-white {
+    color: #fff;
+    font-family: sansProBold;
+    
+}
+
+
+
+
+
+
+/*  */
+
+
+.footer__bottom {
+    border-top: 1px solid #4a4a4a;
+    margin-top: 34px;
+    padding-top: 24px;
+}
+
+
+
+.row {
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding-top: 20px;
+}
+
+
+.d-flex {
+    padding-left: 560px;
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+   
+}
+
+
+
+.pl-30 {
+    padding-left: 30px;
+    position: relative;
+    top: -20px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+
+.align-items {
+    display: flex;
+    /* align-items: center; */
+}
+
+
+
+.text-center {
+    text-align: left;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    width: 568px;
+
+}
+
+
+.wh-5975 {
+    width: 75px;
+    height: 59px;
+    position: relative;
+    top: -18px;
+}
